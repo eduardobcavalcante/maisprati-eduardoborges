@@ -5,7 +5,7 @@
 > Aulas 
 >
 > Exercícios
-> 
+> >Lista exercicio 01 e Lista de exercício 02
 > Atividades
 > 
 > Projeto
