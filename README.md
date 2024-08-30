@@ -40,7 +40,7 @@ Para começar a trabalhar com este repositório, você precisará dos seguintes 
 
 >Como instalar e acessar o git bash**</br>
 
-- Windows
+> Windows
 1. **Instalar o Git Bash** (caso ainda não tenha):
    - Baixe e instale o [Git para Windows](https://git-scm.com/download/win).</br> Durante a instalação, selecione a opção de instalar o Git Bash.
 
@@ -59,7 +59,7 @@ Para começar a trabalhar com este repositório, você precisará dos seguintes 
    - Selecione **"Git Bash Here"** no menu de contexto.
    - Uma janela do terminal Bash será aberta, onde você pode digitar seus comandos Git.
 
-3.  **Execute a seguinte código na linha de comando**:
+  **Execute a seguinte código na linha de comando**:
 - git config --global user.name "Seu Nome" 
 (Esse comando define o nome de usuário que será associado aos seus commits em todos os repositórios Git no seu sistema.)
 
@@ -105,14 +105,26 @@ onfigura o endereço de e-mail que será associado aos seus commits em todos os 
    - No menu superior, clique em **File > Open Folder...**.
    - Navegue até a pasta do projeto `listaexercicio01` e selecione-a.
 
-### 2. Executando um Exercício
+### 2. Codando e Executando um Exercício
 1. **Abra o Arquivo do Exercício**:
    - Na barra lateral à esquerda, clique no arquivo do exercício que você deseja executar, por exemplo, `exercicionº.js`.
 
 2. **Abrindo o Terminal Integrado**:
    - Vá até o menu superior e selecione **Terminal > New Terminal**. Isso abrirá um terminal na parte inferior do Visual Studio Code.
 
-3. **Executando o Código JavaScript**:
+3. **Instalação e Uso do `prompt-sync`** com objetivo de gerar interação com o usuário, onde ele possa interagir com o terminal:
+   - Inicialize o Projeto Node.js
+   ```bash
+   npm init -y.
+ 3.1 - Instalar oprompt-sync
+     
+      npm install prompt-sync
+
+   **criar a constato em um arquivo javascrpit ex: `exercicio01.js`
+      
+      const prompt = require('prompt-sync')().
+
+4. **Executando o Código JavaScript**:
    - Certifique-se de que o Node.js está instalado na sua máquina. Se ainda não tiver o Node.js, você pode baixá-lo e instalá-lo a partir do [site oficial](https://nodejs.org/).
    - No terminal, digite o seguinte comando para executar o exercício:
      ```bash
@@ -120,7 +132,7 @@ onfigura o endereço de e-mail que será associado aos seus commits em todos os 
      ```
    - Substitua `exercicio1.js` pelo nome do arquivo que deseja executar.
 
-4. **Verificando a Saída**:
+5. **Verificando a Saída**:
    - Após rodar o comando, o resultado do exercício aparecerá no terminal.
    - Caso o exercício envolva interação com o usuário (por exemplo, receber entradas), siga as instruções que aparecerem no terminal.
 
