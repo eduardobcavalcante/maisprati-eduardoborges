@@ -6,9 +6,11 @@
 Para começar a trabalhar com este repositório, você precisará dos seguintes softwares instalados:
 
 1. **Visual Studio Code** - Uma IDE leve e poderosa para desenvolvimento.
-2. **Git** - Controle de versão para acompanhar suas mudanças no código.
-3. **GitHub** - Plataforma para hospedar seu código e colaborar com outros.
+2. **Node.js** -Baixe e instale o Node.js 
+3. **Git** - Controle de versão para acompanhar suas mudanças no código.
+4. **GitHub** - Plataforma para hospedar seu código e colaborar com outros.
 
+   
 *1º Passo* - Instalação das ferramentas:
 
 > Instalando o Visual Studio Code
@@ -16,6 +18,17 @@ Para começar a trabalhar com este repositório, você precisará dos seguintes 
 2. Clique em "Download" e selecione a versão para o seu sistema operacional.
 3. Siga as instruções de instalação no assistente.
 
+>  Instale o Node.js:
+   - Acesse o site oficial do Node.js: [Node.js](https://nodejs.org/).
+   - Clique em "Download" e selecione a versão recomendada para o seu sistema operacional.
+   - Siga as instruções de instalação no assistente. O Node.js inclui o npm (Node Package Manager), que também pode ser útil.
+
+   **Verifique a Instalação**:
+   - Após a instalação, abra o **Terminal** ou **Prompt de Comando** e execute o comando abaixo para verificar se o Node.js foi instalado corretamente:
+     ```bash
+     node -v
+     ```
+     
 >Instalando o Git
 1. Acesse o site oficial do Git: [Git Downloads](https://git-scm.com/downloads).
 2. Escolha o instalador correspondente ao seu sistema operacional.
@@ -78,10 +91,38 @@ onfigura o endereço de e-mail que será associado aos seus commits em todos os 
      ```
    - Isso enviará o conteúdo do repositório local para o repositório remoto no GitHub.
 
-*4º Passo* - ### 4. Verifique o Repositório no GitHub
+*4º Passo* - ### Verifique o Repositório no GitHub
 - Acesse o repositório no GitHub através do link `https://github.com/seu-usuario/lista-exercicios-js`.
 - Você deverá ver todos os arquivos que foram enviados.
 
+*5º Passo* - # Como Executar os Exercícios no Visual Studio Code
+
+### 1. Abrindo o Projeto no Visual Studio Code
+1. **Abra o Visual Studio Code**:
+   - Inicie o Visual Studio Code na sua máquina.
+
+2. **Abra o Projeto**:
+   - No menu superior, clique em **File > Open Folder...**.
+   - Navegue até a pasta do projeto `listaexercicio01` e selecione-a.
+
+### 2. Executando um Exercício
+1. **Abra o Arquivo do Exercício**:
+   - Na barra lateral à esquerda, clique no arquivo do exercício que você deseja executar, por exemplo, `exercicionº.js`.
+
+2. **Abrindo o Terminal Integrado**:
+   - Vá até o menu superior e selecione **Terminal > New Terminal**. Isso abrirá um terminal na parte inferior do Visual Studio Code.
+
+3. **Executando o Código JavaScript**:
+   - Certifique-se de que o Node.js está instalado na sua máquina. Se ainda não tiver o Node.js, você pode baixá-lo e instalá-lo a partir do [site oficial](https://nodejs.org/).
+   - No terminal, digite o seguinte comando para executar o exercício:
+     ```bash
+     node exercicio1.js
+     ```
+   - Substitua `exercicio1.js` pelo nome do arquivo que deseja executar.
+
+4. **Verificando a Saída**:
+   - Após rodar o comando, o resultado do exercício aparecerá no terminal.
+   - Caso o exercício envolva interação com o usuário (por exemplo, receber entradas), siga as instruções que aparecerem no terminal.
 
 
 
