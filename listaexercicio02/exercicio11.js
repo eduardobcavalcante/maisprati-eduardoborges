@@ -2,7 +2,7 @@
 cliente, produto, e quantidade. Use forEach para criar um objeto que
 agrupa a quantidade total de produtos por cliente.*/
 
-pedido = [
+ let pedido = [
     {cliente: "a", produto:"arroz", quantidade: 5},
     {cliente: "b", produto:"feijão",quantidade: 3},
     {cliente: "c", produto:"açucar",quantidade: 10},

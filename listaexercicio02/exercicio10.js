@@ -2,7 +2,7 @@
 quantidade e valor. Use forEach para calcular o valor total de vendas de
 todos os produtos. */
 
-venda = [
+let venda = [
     {produto: "a",
      quantidade: 3,
      valor: 8,
