@@ -19,9 +19,7 @@ venda = [
 ]
 
 somaValor = 0
-venda.forEach((item)=>{
-    if(venda.produto!=0){
-        somaValor+= item.quantidade * item.valor 
-    }
+venda.forEach((item)=>{ 
+    somaValor+= item.quantidade * item.valor 
     })
     console.log(`A valor total das vendas é ${somaValor}`)
